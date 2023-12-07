@@ -149,7 +149,7 @@ postController.deletePost = async (req, res) => {
         }
 
         await post.findByIdAndDelete(id);
-        return res.json({ mensaje: 'Post eliminada con éxito' });
+        return res.json({ mensaje: 'Post eliminado con éxito' });
 
     } catch (error) {
 
@@ -170,7 +170,7 @@ postController.myPosts = async (req, res) => {
 
         if (!tokenValido) {
             return res.status(500).json({
-                mensaje: 'Token no valido',
+                mensaje: 'Token no válido',
             });
         }
         const userId = tokenValido.id

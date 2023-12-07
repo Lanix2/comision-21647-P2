@@ -28,9 +28,9 @@ commentController.commentView = async (req, res) => {
 
     } catch (error) {
 
-        let mensaje = 'Ocurrió un error interno al intentar obtener el comment';
+        let mensaje = 'Ocurrió un error interno al intentar obtener el comentario';
         if (error.kind === 'ObjectId') {
-            mensaje = 'No se pudo obtener el comment';
+            mensaje = 'No se pudo obtener el comentario';
         }
         return res.status(500).json({
             mensaje: mensaje,
@@ -66,12 +66,12 @@ commentController.createdComment = async (req, res) => {
 
         addComment(newComment, post)
 
-        return res.json({ mensaje: 'Comment creado con éxito' });
+        return res.json({ mensaje: 'Comentario creado con éxito' });
 
     } catch (error) {
 
         return res.status(500).json({
-            mensaje: 'Ocurrió un error interno al intentar crear el comment',
+            mensaje: 'Ocurrió un error interno al intentar crear el comentario',
             error: error
         });
 
@@ -108,12 +108,12 @@ commentController.editComment = async (req, res) => {
                 desc: desc,
             }
         );
-        return res.json({ mensaje: 'Comment actualizado con éxito' });
+        return res.json({ mensaje: 'Comentario actualizado con éxito' });
 
     } catch (error) {
 
         return res.status(500).json({
-            mensaje: 'Ocurrió un error interno al intentar editar el comment',
+            mensaje: 'Ocurrió un error interno al intentar editar el comentario',
             error: error
         });
     }

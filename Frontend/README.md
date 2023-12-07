@@ -1,8 +1,24 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El en siguiente proyecto Final se demuestra lo aprendido en toda la cursada del tramo 3 de programacion de Epica donde
+se utilizaron las siguientes tecnologás
 
-Currently, two official plugins are available:
+Backend:
+    Node.js
+    Express.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Base de Datos:
+    MongoDB
+
+Autenticación:
+    JWT
+
+Frontend:
+    React.js
+    Vite
+
+Libreria CSS:
+    Boostrap
+
+
+
