@@ -47,7 +47,7 @@ function MyNavbar() {
                     </>
                         :
                         <>
-                            <Button variant="outline-success" className="me-2" href='/login'>Iniciar Sesion</Button>
+                            <Button variant="outline-success" className="me-2" href='/login'>Iniciar Sesión</Button>
                             <Button variant="outline-success" href='/register'>Registrarse</Button>
                         </>
                     }
